@@ -9,3 +9,13 @@
 '''
 
 mac = 'AAAA:BBBB:CCCC'
+
+In [13]: mac = 'AAAA:BBBB:CCCC'                                                 
+
+In [14]: mac.replace(':', '.')                                                  
+Out[14]: 'AAAA.BBBB.CCCC'
+
+In [15]: mac = mac.replace(':', '.')                                            
+
+In [16]: print(mac)                                                             
+AAAA.BBBB.CCCC
