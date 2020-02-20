@@ -36,7 +36,7 @@ maskbit = "{:<032}".format(maskbit)
 mask_o1 = int(maskbit[0:8], 2)
 mask_o2 = int(maskbit[8:16], 2)
 mask_o3 = int(maskbit[16:24], 2)
-mask_o4 = int(maskbit[24:32], 2
+mask_o4 = int(maskbit[24:32], 2)
 
 template = '''
      : Network:
