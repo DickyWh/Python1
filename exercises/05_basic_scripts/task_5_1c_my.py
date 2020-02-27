@@ -55,6 +55,6 @@ london_co = {
 
 
 print('\n' + '-' * 30)
-print(london_co.get('[dev][param]', 'такого значения нет'))
+print(london_co[dev].get(param, 'такого параметра нет'))
 
 

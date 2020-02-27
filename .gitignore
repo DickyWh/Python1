@@ -1,5 +1,6 @@
 # Vim undo files. Python
 *.un~
 *.swp
+*.swo
 .cache/
 
