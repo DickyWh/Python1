@@ -21,6 +21,7 @@ $ python task_5_2.py
 То есть эту задачу можно решить без использования условия if.
 '''
 
+dev = input('Введите имя устройства r1/r2/sw1: ')
 
 london_co = {
     'r1': {
@@ -48,24 +49,5 @@ london_co = {
     }
 }
 
-
-
-
-host = input('введите имя устройства(r1/r2/sw1: ') 
-try:
-    print(london_co[host])
-except KeyError:
-    print('Нет данных по этому устройству')
-
-
-
-
-
-
-
-
-
-
-
-
+print(london_co[dev])
 
