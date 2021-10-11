@@ -16,3 +16,5 @@ nat = nat.replace('Fast', 'Gigabit')
 
 print(nat)
 
+
+
