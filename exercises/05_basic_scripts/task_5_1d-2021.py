@@ -18,6 +18,8 @@ $ python task_5_2d.py
 То есть эту задачу можно решить без использования условия if.
 '''
 
+dev = input("Введите имя устройства r1/r2/sw1: ")
+
 london_co = {
     'r1': {
         'location': '21 New Globe Walk',
@@ -43,3 +45,9 @@ london_co = {
         'routing': True
     }
 }
+
+
+params = ", ".join(london_co[dev].keys())
+parameter = input(f"Введите имя параметра ({params}): ")
+
+print(london_co[dev].get(parameter.lower(), "такого параметра нет"))
