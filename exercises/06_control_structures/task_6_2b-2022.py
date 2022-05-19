@@ -18,9 +18,9 @@ while True:
     for i in octets:
         correct_ip = i.isdigit() and 0 <= int(i) <= 255 and correct_ip
 
-        if correct_ip:
-            break
-        print("Непрвильный IP-адрес")
+    if correct_ip:
+        break
+    print("Непрвильный IP-адрес")
 
 if 1 <= int(octets[0]) <= 223:
     print("unicast адрес")
